@@ -18,12 +18,12 @@ public class Menu {
                 // Call Mini Sudoku game function here
             } else if (choice == 2) {
                 System.out.println("You have selected Connections!");
-                // Call Connections game function here
+                Connections game = new Connections();
+                game.printRows();
             } else if (choice == 3) {
                 System.out.println("Thank you for playing! Goodbye!");
-            } else {
-                System.out.println("Please enter 1, 2, or 3.");
             }
+
         } while (choice != 3);
 
         input.close();
