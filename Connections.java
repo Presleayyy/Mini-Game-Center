@@ -25,8 +25,25 @@ public class Connections {
         }
     }
 
+    //Prompts user to match the words in the same category
+    public void matchWords() {
+        System.out.println("Type four words that belong in the same category, separated by spaces:");
+
+    }
+
+    // Counts attempts and restricts the user to maximum of 4 attempts. When finished, prints out the correct answers.
+    public void countAttempts() {
+        int attempts = 0;
+        while (attempts < 4) {
+            // logic to get user input and check if correct
+            attempts++;
+        }
+        System.out.println("Maximum attempts reached. The correct answers are: ...");
+    }
     public static void main(String[] args) {
         Connections game = new Connections();
         game.printRows();
+        game.matchWords();
+        game.countAttempts();
     }
 }
