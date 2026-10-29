@@ -20,6 +20,7 @@ public class Menu {
                 System.out.println("You have selected Connections!");
                 Connections game = new Connections();
                 game.printRows();
+                game.matchWords();
             } else if (choice == 3) {
                 System.out.println("Thank you for playing! Goodbye!");
             }

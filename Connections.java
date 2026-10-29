@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class Connections {
     List<String> all = new ArrayList<>(List.of(
-            "hi", "Hello", "Hey", "wsp",
-            "Blue", "Red", "Orange", "green",
-            "Bye", "cya", "peace", "audi",
-            "doctor", "scientist", "boffin", "labcoat"
+            "Hi", "Hello", "Hey", "Wsp",
+            "Blue", "Red", "Orange", "Green",
+            "Bye", "Cya", "Peace", "Audi",
+            "Doctor", "Scientist", "Boffin", "Labcoat"
     ));
 
     int guessCount = 0;
